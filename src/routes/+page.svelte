@@ -41,7 +41,7 @@
     <Main webhook_obj={ret}/>
   </div>
 {:catch}
-  <code>Error in resolving webhook. Check the URL</code>
+  <code>Error in resolving webhook, which may be due to an invalid webhook URL. Check the URL</code>
 {/await}
 
 <style>
